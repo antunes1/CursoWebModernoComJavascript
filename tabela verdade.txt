@@ -1,0 +1,22 @@
+tabela verdade
+
+v e v -> v
+v e f -> f
+f e ? -> f 
+
+v ou ? -> v
+f ou v -> v 
+f ou f -> f
+
+// ou exclusivo xor
+v xor v -> f
+v xor f -> v
+f xor v -> v
+f xor f -> f
+
+// negação logica de verdadeiro, vira falso
+!v -> f
+
+
+// negação logica de falso, vira verdadeiro
+!f -> v
